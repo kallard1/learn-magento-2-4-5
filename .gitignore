@@ -9,7 +9,6 @@
 !/app/etc/config.php
 !/app/etc/env.php.*
 !/app/i18n/**
-!/auth.json
 !/build_options.ini
 !/composer*.json
 !/composer*.lock
@@ -38,9 +37,3 @@
 node_modules/
 .vscode/
 .idea/
-
-### Docker
-docker-compose.yml
-Makefile
-/docker/*
-!.env.dist
